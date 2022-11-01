@@ -7,7 +7,7 @@ COMMAND /animateworld
 	RegisterCommand('animateworld', function (source, args, raw) 
 	TriggerServerEvent("replace-texture-server")
     local txd = CreateRuntimeTxd('duiTxd')
-    local duiObj = CreateDui('https://i.imgur.com/g5bjfOX.gif', 500, 500) LIEN DE VOTTRE IMAGE GIF ET LES PIXEL 
+    local duiObj = CreateDui('https://i.imgur.com/g5bjfOX.gif', 500, 500) LIEN DE VOTRE IMAGE GIF ET LES PIXEL 
     _G.duiObj = duiObj
     local dui = GetDuiHandle(duiObj)
     local tx = CreateRuntimeTextureFromDuiHandle(txd, 'duiTex', dui)
